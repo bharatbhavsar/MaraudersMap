@@ -1,0 +1,265 @@
+11/3/2014 4:05:46 PM : info : entered updateLocationToDB
+11/3/2014 4:05:46 PM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/3/2014 4:05:46 PM : info : Could not Update Location updateLocationToDB
+11/3/2014 4:15:28 PM : info : entered updateLocationToDB
+11/3/2014 4:15:28 PM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/3/2014 4:15:28 PM : info : Could not Update Location updateLocationToDB
+11/3/2014 4:17:52 PM : info : entered updateLocationToDB
+11/3/2014 4:17:52 PM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation)
+11/3/2014 4:17:52 PM : info : Could not Update Location updateLocationToDB
+11/3/2014 4:20:21 PM : info : entered updateLocationToDB
+11/3/2014 4:20:21 PM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation)
+11/3/2014 4:20:21 PM : info : Could not Update Location updateLocationToDB
+11/3/2014 4:21:54 PM : info : entered updateLocationToDB
+11/3/2014 4:21:54 PM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/3/2014 4:21:54 PM : info : Could not Update Location updateLocationToDB
+11/3/2014 4:22:38 PM : info : entered updateLocationToDB
+11/3/2014 4:22:38 PM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/3/2014 4:22:38 PM : info : Could not Update Location updateLocationToDB
+11/3/2014 4:23:53 PM : info : entered updateLocationToDB
+11/3/2014 4:23:53 PM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/3/2014 4:23:53 PM : info : Could not Update Location updateLocationToDB
+11/3/2014 4:25:26 PM : info : entered updateLocationToDB
+11/3/2014 4:25:26 PM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/3/2014 4:25:26 PM : info : Could not Update Location updateLocationToDB
+11/3/2014 4:26:34 PM : info : entered updateLocationToDB
+11/3/2014 4:26:34 PM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/3/2014 4:26:34 PM : info : Could not Update Location updateLocationToDB
+11/3/2014 4:27:48 PM : info : entered updateLocationToDB
+11/3/2014 4:27:48 PM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/3/2014 4:27:48 PM : info : Could not Update Location updateLocationToDB
+11/3/2014 4:30:27 PM : info : entered updateLocationToDB
+11/3/2014 4:30:27 PM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/3/2014 4:30:27 PM : info : Could not Update Location updateLocationToDB
+11/3/2014 4:32:40 PM : info : entered updateLocationToDB
+11/3/2014 4:32:40 PM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/3/2014 4:32:40 PM : info : Could not Update Location updateLocationToDB
+11/4/2014 9:20:28 AM : info : entered updateLocationToDB
+11/4/2014 9:20:28 AM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/4/2014 9:20:28 AM : info : Could not Update Location updateLocationToDB
+11/4/2014 9:24:04 AM : info : entered updateLocationToDB
+11/4/2014 9:24:04 AM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/4/2014 9:24:04 AM : info : Could not Update Location updateLocationToDB
+11/4/2014 9:31:35 AM : info : entered updateLocationToDB
+11/4/2014 9:31:36 AM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/4/2014 9:31:36 AM : info : Could not Update Location updateLocationToDB
+11/4/2014 9:34:57 AM : info : entered updateLocationToDB
+11/4/2014 9:34:58 AM : exception in updateLocationToDB : System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MaraudersMapBLL.DAL_Functions.updateLocationToDB(UserDynamicLocationProp UpdatesLocation) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 213
+11/4/2014 9:34:58 AM : info : Could not Update Location updateLocationToDB
+11/4/2014 1:19:12 PM : info : entered getPlaceByNameFromDB
+11/4/2014 1:19:51 PM : info : entered getUserByNameFromDB
+11/4/2014 1:19:51 PM : exception in getUserByNameFromDB : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'bmb140330%'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at MaraudersMapBLL.DAL_Functions.getUserByNameFromDB(String Name) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 106
+ClientConnectionId:d6304058-16eb-4e86-8ab4-30a117b1dda4
+11/4/2014 1:19:51 PM : info : exited getUserByNameFromDB
+11/4/2014 1:24:02 PM : info : entered getPlaceByNameFromDB
+11/4/2014 1:24:02 PM : info : entered getUserByNameFromDB
+11/4/2014 1:24:02 PM : exception in getUserByNameFromDB : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'bmb140330%'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at MaraudersMapBLL.DAL_Functions.getUserByNameFromDB(String Name) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 106
+ClientConnectionId:0bb83519-6170-49dc-ba39-b6b504b238a2
+11/4/2014 1:24:02 PM : info : exited getUserByNameFromDB
+11/4/2014 1:29:03 PM : info : entered getPlaceByNameFromDB
+11/4/2014 1:29:03 PM : info : entered getUserByNameFromDB
+11/4/2014 1:29:04 PM : exception in getUserByNameFromDB : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'bmb140330%'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at MaraudersMapBLL.DAL_Functions.getUserByNameFromDB(String Name) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 106
+ClientConnectionId:74c675a9-3be6-48c8-91a5-88687ccc84ad
+11/4/2014 1:29:04 PM : info : exited getUserByNameFromDB
+11/4/2014 1:45:09 PM : info : entered getPlaceByNameFromDB
+11/4/2014 1:45:09 PM : info : entered getUserByNameFromDB
+11/4/2014 1:45:10 PM : exception in getUserByNameFromDB : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'bmb140330%'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at MaraudersMapBLL.DAL_Functions.getUserByNameFromDB(String Name) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 106
+ClientConnectionId:c60b517d-f01e-431d-8dcb-f51b038d20e5
+11/4/2014 1:45:10 PM : info : exited getUserByNameFromDB
+11/4/2014 1:51:33 PM : info : entered getUserByNameFromDB
+11/4/2014 1:51:47 PM : exception in getUserByNameFromDB : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'bmb140330%'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at MaraudersMapBLL.DAL_Functions.getUserByNameFromDB(String Name) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 106
+ClientConnectionId:c7cdc039-c03d-495b-b7fb-baaf0f4e499a
+11/4/2014 1:51:47 PM : info : exited getUserByNameFromDB
+11/4/2014 2:05:16 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:06:38 PM : info : entered getUserByNameFromDB
+11/4/2014 2:06:39 PM : exception in getUserByNameFromDB : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '%'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at MaraudersMapBLL.DAL_Functions.getUserByNameFromDB(String Name) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 106
+ClientConnectionId:3e4468a1-906b-4793-8de5-9bbfe15625e2
+11/4/2014 2:06:39 PM : info : exited getUserByNameFromDB
+11/4/2014 2:08:22 PM : info : entered getUserByNameFromDB
+11/4/2014 2:08:22 PM : exception in getUserByNameFromDB : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'bmb140330%'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at MaraudersMapBLL.DAL_Functions.getUserByNameFromDB(String Name) in C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\DAL\DAL_Functions.vb:line 106
+ClientConnectionId:3e4468a1-906b-4793-8de5-9bbfe15625e2
+11/4/2014 2:08:22 PM : info : exited getUserByNameFromDB
+11/4/2014 2:18:03 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:19:45 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:23:25 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:23:46 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:23:54 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:24:36 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:25:09 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:25:48 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:26:43 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:31:38 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:36:15 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:37:48 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:38:03 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:38:10 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:38:18 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:39:02 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:39:12 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:39:28 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:41:19 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:43:45 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:51:37 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:51:57 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:52:05 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:52:31 PM : info : entered getPlaceByNameFromDB
+11/4/2014 2:52:36 PM : info : entered getPlaceByNameFromDB
+11/4/2014 3:45:13 PM : info : entered getPlaceByNameFromDB
+11/4/2014 3:52:57 PM : info : entered getPlaceByNameFromDB
+11/4/2014 3:53:11 PM : info : entered getPlaceByNameFromDB
+11/4/2014 4:09:57 PM : info : entered getPlaceByNameFromDB

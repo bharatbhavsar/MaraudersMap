@@ -1,0 +1,261 @@
+<html>
+<head>
+<style type="text/css">
+body {
+background-color: #f4f4f4;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+}
+a { text-decoration: none; }
+h1 { font-size: 1em; }
+h1, p {
+margin-bottom: 10px;
+}
+strong {
+font-weight: bold;
+}
+.uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+#login {
+margin: 50px auto;
+width: 300px;
+}
+form fieldset input[type="text"], input[type="password"] {
+background-color: #e5e5e5;
+border: none;
+border-radius:3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 50px;
+outline: none;
+padding: 0px 10px;
+width: 280px;
+-webkit-appearance:none;
+}
+form fieldset input[type="submit"] {
+background-color: #EBC699;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 50px;
+text-transform: uppercase;
+width: 300px;
+-webkit-appearance:none;
+}
+form fieldset a {
+color: #5a5656;
+font-size: 10px;
+}
+form fieldset a:hover { text-decoration: underline; }
+.btn-round {
+background-color: #5a5656;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+color: #f4f4f4;
+display: block;
+font-size: 12px;
+height: 50px;
+line-height: 50px;
+margin: 30px 125px;
+text-align: center;
+text-transform: uppercase;
+width: 50px;
+}
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+function windowOnload()
+	{
+		document.getElementById('<%= Label1.ClientID %>').readOnly = true;
+	}
+    	window.onload = windowOnload;
+
+
+
+function validate()
+	{
+	if (document.getElementById("fname").value == "")
+		{
+			alert("Please enter First Name.");
+			return false;	
+        	}
+	var alphaExp = /^[a-zA-Z]+$/;
+	var fname = document.getElementById("fname").value;
+		if(!fname.match(alphaExp))
+    		{
+        		alert("Please enter only alphabets in First Name.");
+			return false;
+    		}
+		if (document.getElementById("lname").value == "")
+		{
+			alert("Please enter Last Name.");
+			return false;	
+        	}
+	var lname = document.getElementById("lname").value;
+		if(!lname.match(alphaExp))
+    		{
+        		alert("Please enter only alphabets in Last Name.");
+			return false;
+    		}
+		if (document.getElementById("NetId").value == "")
+		{
+			alert("Please enter Net ID");
+			return false;	
+        }
+	var testid = /^[a-zA-Z]{3}\d{6}$/;
+		if (!testid.test(document.getElementById("NetId").value))
+		{
+			alert("Please enter Net IDin the correct format e.g. xxx999999");
+			return false;	
+        }
+		if (document.getElementById("Password").value == "")
+		{
+			alert("Please enter Password");
+			return false;	
+        }
+				
+		
+	
+	return true;
+}
+function checkfb()
+{
+	var username=document.getElementById("Facebook").value;
+	$.getJSON('http://graph.facebook.com/'+username+'?fields=id', function(data){
+		setFbId(data);
+	});
+
+}
+var fbid="";
+
+function setFbId(data)
+{
+	fbid=data.id;
+	alert("<img src=\"https://graph.facebook.com/"+fbid+"/picture?type=square\">");
+	document.getElementById("fbpic").innerHTML="<img src=\"https://graph.facebook.com/"+fbid+"/picture?type=square\">";	
+}
+function register()
+{
+if(validate())
+{
+	var att = "http://utdmaraudersmap.somee.com/maraudersmapweb/Login.aspx?type=registration&netid="+ document.getElementById("NetId").value +"&password=" + document.getElementById("Password").value +"&fname="+document.getElementById("fname").value+"&lname="+document.getElementById("lname").value+"&mobile="+document.getElementById("mobileno").value+"&fb="+fbid+"&linkedin="+document.getElementById("LinkedIn").value;
+    alert(att);
+    var xmlhttp;
+  
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+  
+       var login =(xmlhttp.responseText); alert(login);
+     	login=login.substring(0,login.indexOf("<"));
+       	login=login.replace(/\s+$/, '');
+       alert(login);
+    	if (login.toLowerCase()  == "true".toLowerCase() )
+    	{	
+    	//alert("true");
+    	//window.localStorage.setItem("netid",document.getElementById("NetId").value);
+		window.location = "index.html"
+	 	}
+ 		else
+ 		{
+ 			alert(""+login);return false;
+ 		}
+    }
+    else
+    {
+        alert("not ready"+xmlhttp.readyState+xmlhttp.status);
+    }
+}
+xmlhttp.open("GET", att, false);
+xmlhttp.send();
+}
+	return false;
+}
+</script>
+</head>
+<body>
+<form action="#" name="Marauder's map Registration">
+<table cellpadding="2" width="20%" bgcolor="#EAD19D" align="center"
+cellspacing="2">
+
+	<tr>
+		<td colspan=2>
+			<center><font size=4><b>Registration Form</b></font></center>
+		</td>
+	</tr>
+
+	<tr>
+		<td>First Name</td>
+		<td><input type=text name=textnames id="fname" size="30" EnableViewState="true" maxlength="20"></td>
+	</tr>
+
+	<tr>
+		<td>Last Name</td>
+		<td><input type=text name=textnames id="lname" size="30" value="" maxlength="20"></td>
+	</tr>
+
+	<tr>
+		<td>NetId</td>
+		<td><input type="text" name="NetId"
+		id="NetId" size="30" maxlength="9"></td>
+	</tr>
+
+	<tr>
+		<td>Password</td>
+		<td><input type="password" name="Password"
+		id="Password" size="30" maxlength="10"></td>
+	</tr>
+	
+	<tr>
+		<td>Facebook</td>
+		<td><input type="text" name="Facebook"
+		id="Facebook" size="30" maxlength="50"></td>
+		
+	</tr>
+	<tr>
+		<td><div id="fbpic"></div></td>
+		<td><input type="button" value="verify facebook" onclick="checkfb()">
+	</td>
+		
+	</tr>
+	<tr>
+		<td>LinkedIn</td>
+		<td><input type="text" name="LinkedIn"
+		id="LinkedIn" size="30" maxlength="50"></td>
+	</tr>
+
+	<tr>
+		<td>MobileNo</td>
+		<td><input type="text" name="mobileno" id="mobileno" size="30"maxlength="10"></td>
+	</tr>
+
+	<tr>
+		<td colspan="2"><input type="button" value="Submit" onclick="return register()"/>
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>

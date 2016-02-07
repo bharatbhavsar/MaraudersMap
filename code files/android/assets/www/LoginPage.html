@@ -1,0 +1,198 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=devide-width, initial-scale=1.0" />
+
+<title>Marauder's Map Login</title>
+<link href="/stylesheets/mobile.css" media="only screen and (max-width: 767px)" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+background-color: #f4f4f4;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+}
+a { text-decoration: none; }
+h1 { font-size: 1em; }
+h1, p {
+margin-bottom: 10px;
+}
+strong {
+font-weight: bold;
+}
+.uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+#login {
+margin: 50px auto;
+width: 300px;
+}
+form fieldset input[type="text"], input[type="password"] {
+background-color: #e5e5e5;
+border: none;
+border-radius:3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 50px;
+outline: none;
+padding: 0px 10px;
+width: 280px;
+-webkit-appearance:none;
+}
+form fieldset input[type="submit"] {
+background-color: #EBC699;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 50px;
+text-transform: uppercase;
+width: 300px;
+-webkit-appearance:none;
+}
+form fieldset a {
+color: #5a5656;
+font-size: 10px;
+}
+form fieldset a:hover { text-decoration: underline; }
+.btn-round {
+background-color: #5a5656;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+color: #f4f4f4;
+display: block;
+font-size: 12px;
+height: 50px;
+line-height: 50px;
+margin: 30px 125px;
+text-align: center;
+text-transform: uppercase;
+width: 50px;
+}
+</style>
+<script type="text/javascript">
+
+            function windowOnload()
+	{
+		document.getElementById('<%= Label1.ClientID %>').readOnly = true;
+	}
+    		window.onload = windowOnload;
+function validate()
+	{
+        if (document.getElementById("NetId").value == "")
+		{
+			alert("Please enter Net ID");
+			return false;	
+        }
+	var testid = /^[a-zA-Z]{3}\d{6}$/;
+		if (!testid.test(document.getElementById("NetId").value))
+		{
+			alert("Please enter Net IDin the correct format e.g. xxx999999");
+			return false;	
+        }
+		
+	if (document.getElementById("Password").value == "")
+		{
+			alert("Please enter Password");
+			return false;	
+        }
+                return true;
+		//window.location.replace("~/index.html");
+    }
+
+
+function login(){
+
+
+//ip = getIp();
+
+if(validate()==true)
+{
+var att = "http://utdmaraudersmap.somee.com/maraudersmapweb/Login.aspx?type=login&netid=" + document.getElementById("NetId").value + "&password=" + document.getElementById("Password").value;
+//    alert(att);
+    var xmlhttp;
+  
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+  
+       var login =(xmlhttp.responseText);
+     	login=login.substring(0,login.indexOf("<"));
+       	login=login.replace(/\s+$/, '');
+       //alert(login);
+    	if (login.toLowerCase()  == "true".toLowerCase() )
+    	{	
+    	//alert("true");
+    	window.localStorage.setItem("netid",document.getElementById("NetId").value);
+		window.location = "index.html"
+	 	}
+ 		else
+ 		{
+ 			alert(""+login);return false;
+ 		}
+    }
+    else
+    {
+        alert("not ready"+xmlhttp.readyState+xmlhttp.status);
+    }
+}
+xmlhttp.open("GET", att, false);
+xmlhttp.send();
+}
+}
+
+        </script>
+</head>
+<body>
+<form method="post" name="Marauder's map Registration" action="ip:13237/login.aspx?necessaryfields">
+<table cellpadding="4" width="30%" height="50%" bgcolor="#EAD19D" align="center"
+cellspacing="4">
+
+	<tr>
+		<td colspan=2>
+			<center><font size=4><b>Login Page</b></font></center>
+		</td>
+	</tr>
+
+	<tr>
+		<td>NetId</td>
+		<td><input type="text" name="NetId"
+		id="NetId" size="30" maxlength="9"></td>
+	</tr>
+	
+	<tr>
+		<td>Password</td>
+		<td><input type="password" name="Password"
+		id="Password" size="10" maxlength="10"></td>
+	</tr>
+	
+<tr>
+        <td><a href="reg1.html">Sign Up</a><td  width="200">
+    </tr>
+
+	<tr>
+		<td colspan="2"><input type="button" value="Login" onclick="return login(); "/>
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
+

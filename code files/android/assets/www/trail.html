@@ -1,0 +1,34 @@
+<html>
+<head>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+       
+<script>
+	
+function search()
+{
+
+	//alert();
+	var username="jaychheda.999";
+	$.getJSON('http://graph.facebook.com/'+username+'?fields=id', function(data){
+			setFbId(data);
+			});
+	
+}
+function setFbId(data)
+{
+	var id=data.id;
+	document.getElementById("fbpic").innerHTML="<img src=\"https://graph.facebook.com/"+id+"/picture?type=square\" />";		
+	alert(id);
+}
+
+</script>
+</head>
+<body>
+<div>
+<button onclick="search()" style="width:100%;height:30%;padding:5px;float:left;">Search</button> 
+
+</div>
+<div id="searchresultbox" style="overflow-y: scroll;background-color:#DFDFDF; width:100%;height:30%;position:fixed; top:90%;float:left;"> search results</div>
+<div id="fbpic"></div>
+</body>
+</html>

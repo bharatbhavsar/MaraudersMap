@@ -1,0 +1,10 @@
+C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\bin\Debug\MaraudersMapBLL.dll
+C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\bin\Debug\MaraudersMapBLL.pdb
+C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\bin\Debug\MaraudersMapBLL.xml
+C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\obj\Debug\MaraudersMapBLL.Resources.resources
+C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\obj\Debug\MaraudersMapBLL.vbproj.GenerateResource.Cache
+C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\obj\Debug\MaraudersMapBLL.dll
+C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\obj\Debug\MaraudersMapBLL.xml
+C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\obj\Debug\MaraudersMapBLL.pdb
+C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\bin\Debug\MaraudersMapDB.mdf
+C:\Users\Jay Tarun Chheda\Documents\maraudersmap\MaraudersMap\MaraudersMapNew\MaraudersMapBLL\bin\Debug\MaraudersMapDB_log.ldf
